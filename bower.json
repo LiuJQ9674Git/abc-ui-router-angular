@@ -1,0 +1,31 @@
+{
+  "name": "angular-ui-router",
+  "version": "0.1",
+  "license": "MIT",
+  "main": "abc-angular-ui-router-sample",
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.7",
+    "toastr": "^2.1.3",
+    "angular-bootstrap": "^2.0.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "component.json",
+    "package.json",
+    "lib",
+    "config",
+    "sample",
+    "test",
+    "tests",
+    "ngdoc_assets",
+    "Gruntfile.js",
+    "files.js"
+  ]
+}

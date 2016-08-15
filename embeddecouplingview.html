@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- Our uiRouterSample module defined here embeddedview.html -->
+<html lang="en"  id="data-ng-app" data-ng-app="demo">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- using twitter bootstrap, but of course -->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap.min.css">
+    <!-- styles for ng-animate are located here -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <style type="text/css">
+      .selected{background-color: #efefef; width:120px; }
+      .detail{width: 300px;margin: 30px;border-top: 1px solid #efefef;}
+    </style>
+    <!-- IE8-HTML5: https://code.google.com/p/html5shiv/ -->
+    <script src="vendor/html5shiv.js"></script>
+
+    <!-- Include angular.js, angular-animate.js and angular-ui-router.js-->
+    <script src="./bower_components/underscore/underscore.js"></script>
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.js"></script>
+
+     <script src="embeddecouplingview.js"></script>
+    <!-- could easily use a custom property of the state here instead of 'name' -->
+    <title>ui-router</title>
+  </head>
+  <body  id="index">
+      <div id="content" ui-view></div>
+
+  </body>
+</html>

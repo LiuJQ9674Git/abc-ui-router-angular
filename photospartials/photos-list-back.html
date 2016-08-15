@@ -1,0 +1,31 @@
+<h1>photos-list</h1>
+<div class="box-content">
+    <ul class="dashboard-list">
+        <li>
+            <a ui-sref="^.detail">
+                <i class="glyphicon glyphicon-arrow-up"></i>
+                <span class="red">相对</span>
+                我通过相对路径到相邻的state
+            </a>
+        </li>
+
+        <li>
+            <a ui-sref="content.photos.detail">
+                <i class="glyphicon glyphicon-arrow-down"></i>
+                <span class="yellow">绝对</span>
+                我通过绝对路径到相邻的state
+            </a>
+
+        </li>
+</ul>
+</div>
+<li class="list-group-item"><a ui-sref="^.detail">我通过相对路径到相邻的state</a></li>
+<li class="list-group-item"><a ui-sref="content.photos.detail">我通过绝对路径到相邻的state</a></li>
+
+    <a data-toggle="tooltip" title="6 new members." class="well top-block" href="#">
+        <i class="glyphicon glyphicon-user blue"></i>
+
+        <div>Total Members</div>
+        <div>507</div>
+        <span class="notification">6</span>
+    </a>
